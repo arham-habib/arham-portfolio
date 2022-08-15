@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
+import Media from "../components/Media"
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
@@ -16,6 +17,7 @@ import data from "../data/portfolio.json";
 export default function Home() {
   // Ref
   const workRef = useRef();
+  const mediaRef = useRef(); 
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
@@ -26,6 +28,14 @@ export default function Home() {
   const handleWorkScroll = () => {
     window.scrollTo({
       top: workRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleMediaScroll = () => {
+    window.scrollTo({
+      top: mediaRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -66,6 +76,7 @@ export default function Home() {
       <div className="container mx-auto mb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
+          handleMediaScroll={handleMediaScroll}
           handleAboutScroll={handleAboutScroll}
         />
         <div className="laptop:mt-20 mt-10">
@@ -130,6 +141,22 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+          <h1 className="text-2xl text-bold">Media:</h1>
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+            {data.media.map((media) => (
+              <Media
+                key={media.id}
+                img={"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"}//{project.imageSrc}
+                name={media.title}
+                description={media.description}
+                onClick={() => window.open(media.link)}
+              />
+            ))}
+          </div>
+        </div>
+       
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About:</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
