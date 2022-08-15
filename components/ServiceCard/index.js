@@ -18,7 +18,7 @@ const ServiceCard = ({ name, description }) => {
       <p className="mt-5 opacity-40 text-xl">
         {description
           ? description
-          : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "}
+          : "Currently on leave from Finance/Math at UPenn Wharton. I'm the cofounder of VO2, backed by Techstars, Rough Draft Ventures, and Eberg Capital. Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands."}
       </p>
     </div>
   );
