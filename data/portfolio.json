@@ -1,6 +1,13 @@
 {
-    "name":"arhamh.eth","headerTaglineOne":"What's good y'all!","headerTaglineTwo":"I'm Arham –","headerTaglineThree":"cofounder of VO2,","headerTaglineFour":"Techstars '22,","headerTaglineFive":"and student @ UPenn.",
-    "showBlog":true,"darkMode":true,"socials":[
+    "name":"arhamh.eth",
+    "headerTaglineOne":"What's good y'all!",
+    "headerTaglineTwo":"I'm Arham –",
+    "headerTaglineThree":"cofounder of ",
+    "headerTaglineFour":"Techstars '22,",
+    "headerTaglineFive":"and student @ UPenn.",
+    "showBlog":true,
+    "darkMode":true,
+    "socials":[
         {"id":"1","title":"Github","link":"https://github.com/arham-habib"},
         {"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/arham-habib"},
         {"id":"3","title":"Twitter","link":"https://twitter.com/Habib12Arham"},
@@ -13,11 +20,17 @@
         {"id":"4","title":"Hedged.","description":"Open-source hegding for anyone that buys or sells commodities.","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}
     ],
     "services":[
-        {"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},
-        {"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},
-        {"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},
-        {"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."},
-        {"id":"05f6299a-ebed-4bc2-b5ab-584ebd8787cc","title":"New Service","description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}],
+        {"id":"1","title":"Smart contract development","description":"I'm familiar with smart contract development in Solidity and Clarity for EVM-compatible chains and the Stacks chain, respectively. Past projects include a DEX indexed to invest in athlete performance and creating a marketplace for ERC-1155 tokens."},
+        {"id":"4","title":"Investment vehicles","description":"I've created and deployed SPVs to facilitate investments in Charlton Athletic (a Premier League football team)'s player acquisition and revenue from sell ons. $2M raised, legal process facilitated by Assure."},
+        {"id":"3","title":"Data science","description":"I've developed web scraping and data analysis scripts using Python (NumPy, Pandas) and R. Past projects include optimizing driver-order allocation for a food delivery platform and scraping Twitter for relevant athletes to promote a product."},
+        {"id":"2","title":"Web Design","description":"I'm picking up React.js and Next.js for the front-end. I'm not an expert – this website is my first forway into web dev."}
+    ],
     "aboutpara":
-        "I'm currently on leave from Finance/Math at UPenn Wharton. I'm the cofounder of VO2, backed by Techstars, Rough Draft Ventures, and Eberg Capital. On campus, I was part of the Genesis Cohort of Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands. I'm passionate about DeFi (specifically bringing real assets on chain), prediction markets, making derivatives more accessible, basketball, and surfing."
+        "I'm the cofounder of VO2: backed by Techstars, Rough Draft Ventures, and Eberg Capital. I'm studying Finance/Math at UPenn Wharton. On campus, I was part of the Genesis Cohort of Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands.I'm passionate about DeFi (specifically bringing real assets on chain), prediction markets, making derivatives more accessible, basketball, and surfing.",
+    "aboutpara1":"I'm the cofounder of VO2: backed by Techstars, Rough Draft Ventures, and Eberg Capital.",
+    "aboutpara2":"I'm studying Finance/Math at UPenn Wharton. On campus, I was part of the Genesis Cohort of Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands.",
+    "aboutpara3":"I'm passionate about DeFi (specifically bringing real assets on chain), prediction markets, making derivatives more accessible, basketball, and surfing."
 }
+
+
+
