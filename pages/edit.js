@@ -46,7 +46,7 @@ const Edit = () => {
           imageSrc:
             "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
 
-          url: "http://chetanverma.com/",
+          url: "http://arhamh.com",
         },
       ],
     });
@@ -103,7 +103,7 @@ const Edit = () => {
         {
           id: uuidv4(),
           title: "New Link",
-          link: "www.chetanverma.com",
+          link: "www.arhamh.com",
         },
       ],
     });
@@ -225,6 +225,19 @@ const Edit = () => {
                 value={data.headerTaglineFour}
                 onChange={(e) =>
                   setData({ ...data, headerTaglineFour: e.target.value })
+                }
+                className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                type="text"
+              ></input>
+            </div>
+            <div className="mt-5 flex items-center">
+              <label className="w-1/5 text-lg opacity-50">
+                Header Tagline Five
+              </label>
+              <input
+                value={data.headerTaglineFive}
+                onChange={(e) =>
+                  setData({ ...data, headerTaglineFive: e.target.value })
                 }
                 className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
                 type="text"
