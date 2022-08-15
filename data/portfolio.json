@@ -23,7 +23,7 @@
         {"id":"1","title":"Smart contract development","description":"I'm familiar with smart contract development in Solidity and Clarity for EVM-compatible chains and the Stacks chain, respectively. Past projects include a DEX indexed to invest in athlete performance and creating a marketplace for ERC-1155 tokens."},
         {"id":"4","title":"Investment vehicles","description":"I've created and deployed SPVs to facilitate investments in Charlton Athletic (a Premier League football team)'s player acquisition and revenue from sell ons. $2M raised, legal process facilitated by Assure."},
         {"id":"3","title":"Data science","description":"I've developed web scraping and data analysis scripts using Python (NumPy, Pandas) and R. Past projects include optimizing driver-order allocation for a food delivery platform and scraping Twitter for relevant athletes to promote a product."},
-        {"id":"2","title":"Web Design","description":"I'm picking up React.js and Next.js for the front-end. I'm not an expert – this website is my first forway into web dev."}
+        {"id":"2","title":"Web Design","description":"I'm picking up React.js and Next.js for the front-end. I'm not an expert – this website is my first take on web dev."}
     ],
     "media":[
         {"id":"1","title":"SportTechie","imageSrc":"","description":"","link":"https://www.sporttechie.com/name-image-likeness-and-a-handshake-vo2-is-the-marketplace-that-lets-fans-meet-greet-and-virtually-invest-in-an-athlete#"},
