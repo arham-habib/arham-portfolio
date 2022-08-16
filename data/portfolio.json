@@ -14,8 +14,8 @@
         {"id":"4","title":"Blog","link":"https://arhamh.substack.com"},
         {"id":"5","title":"Email","link":"mailto:arham.habib@gmail.com"}],
     "projects":[
-        {"id":"1","title":"VO2","description":"Become a stakeholder in athletes.","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"https://www.vo2.fans"},
-        {"id":"2","title":"MOTIV3","description":"Bet on goals with friends","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://motiv3.tech"},
+        {"id":"1","title":"VO2","description":"Become a stakeholder in athletes.","imageSrc":"https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80","url":"https://www.vo2.fans"},
+        {"id":"2","title":"MOTIV3","description":"Bet on goals with friends","imageSrc":"https://images.unsplash.com/photo-1532699747151-80f124a15661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80","url":"http://motiv3.tech"},
         {"id":"3","title":"Swipe Exchange","description":"UPenn's secondary market for meal swipes","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},
         {"id":"4","title":"Hedged.","description":"Open-source hegding strategies for anyone that depends on commodities.","imageSrc":"https://images.unsplash.com/photo-1485793997698-baba81bf21ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80","url":"http://chetanverma.com/"}
     ],
@@ -23,7 +23,7 @@
         {"id":"1","title":"Smart contract development","description":"I've developed in Solidity and Clarity for Polygon/ETH and the Stacks chain, respectively. Past projects include a DEX indexed to invest in athlete performance and a order-book style marketplace for ERC-1155 tokens."},
         {"id":"4","title":"Investment vehicles","description":"I've created and deployed SPVs to facilitate Charlton Athletic (a Premier League football team)'s player acquisition. LPs earn from future player sell-ons. $2M raised, legal process facilitated by Assure."},
         {"id":"3","title":"Data science","description":"I've written web scraping and data analysis scripts using Python (NumPy, Pandas) and R. Past projects include optimizing driver allocation for a food delivery platform based on orders and city size, and scraping Twitter for consumer sentiment on athletes."},
-        {"id":"2","title":"Web Design","description":"I'm picking up React.js and Next.js for front-end dev. I'm not an expert – this website is my first take."}
+        {"id":"2","title":"Web Design","description":"I'm familiar with React and Next.js for the frontend."}
     ],
     "media":[
         {"id":"1","title":"SportTechie","imageSrc":"","description":"","link":"https://www.sporttechie.com/name-image-likeness-and-a-handshake-vo2-is-the-marketplace-that-lets-fans-meet-greet-and-virtually-invest-in-an-athlete#"},
