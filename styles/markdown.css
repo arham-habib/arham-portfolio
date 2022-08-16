@@ -9,16 +9,16 @@
 /* Headings */
 
 .markdown-class h1 {
-  @apply mt-5 text-3xl;
-}
-.markdown-class h2 {
   @apply mt-5 text-2xl;
 }
-.markdown-class h3 {
+.markdown-class h2 {
   @apply mt-5 text-xl;
 }
-.markdown-class h4 {
+.markdown-class h3 {
   @apply mt-5 text-lg;
+}
+.markdown-class h4 {
+  @apply mt-5 text-base;
 }
 .markdown-class h5 {
   @apply mt-5 text-base;
