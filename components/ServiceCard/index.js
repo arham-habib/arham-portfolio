@@ -18,7 +18,7 @@ const ServiceCard = ({ name, description }) => {
       <p className="mt-5 opacity-40 text-xl">
         {description
           ? description
-          : "Currently on leave from Finance/Math at UPenn Wharton. I'm the cofounder of VO2, backed by Techstars, Rough Draft Ventures, and Eberg Capital. Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands."}
+          : "Arham Habib, VO2, Jane Street, Redbud Brands, Cypher Accelerator"}
       </p>
     </div>
   );
