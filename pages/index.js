@@ -119,12 +119,14 @@ export default function Home() {
           </div>
           <Socials className="mt-2 laptop:mt-5" />
         </div>
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="text-3xl text-bold">Demo Day @ Techstars:</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-1 gap-6">
-            <div className="app"> <YoutubeEmbed embedID="c6g4WnfucKw"></YoutubeEmbed></div>
+            <div className="app"> <YoutubeEmbed></YoutubeEmbed></div>
           </div>
         </div>
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-3xl text-bold">Work:</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
