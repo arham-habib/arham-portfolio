@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -84,43 +85,48 @@ export default function Home() {
           <div className="mt-5">
             <h1
               ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
             >
               {data.headerTaglineOne}
             </h1>
             <h1
               ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineTwo}
             </h1>
             <h1
               ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineThree} 
               <Link href="http://www.vo2.fans">
-                  <a className="underline underline-offset-3">VO2</a>
+                  <a className="underline underline-offset-3">VO2,</a>
               </Link>
             </h1>
             <h1
               ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineFour}
             </h1>
             <h1
               ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineFive}
             </h1>
           </div>
-
           <Socials className="mt-2 laptop:mt-5" />
         </div>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+          <h1 className="text-3xl text-bold">Demo Day @ Techstars:</h1>
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-1 gap-6">
+            <div className="app"> <YoutubeEmbed embedID="c6g4WnfucKw"></YoutubeEmbed></div>
+          </div>
+        </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work:</h1>
+          <h1 className="text-3xl text-bold">Work:</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
@@ -134,7 +140,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Skills:</h1>
+          <h1 className="text-3xl text-bold">Skills:</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -146,13 +152,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Media:</h1>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={mediaRef}>
+          <h1 className="text-3xl text-bold">TMZ takin pictures, causin mad hysteria:</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.media.map((media) => (
               <Media
                 key={media.id}
-                img={"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60"}//{project.imageSrc}
+                img={media.imageSrc}
                 name={media.title}
                 description={media.description}
                 onClick={() => window.open(media.link)}
@@ -160,9 +166,8 @@ export default function Home() {
             ))}
           </div>
         </div>
-       
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About:</h1>
+          <h1 className="text-3xl text-bold">About:</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara1} 
           </p>
@@ -171,6 +176,9 @@ export default function Home() {
           </p>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara3}
+          </p>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+            {data.aboutpara4}
           </p>
         </div>
         <Footer />

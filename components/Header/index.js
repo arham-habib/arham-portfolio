@@ -105,7 +105,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleMediaScroll, isBlog
         } dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
-          onClick={() => router.push("/")}
+          onClick={() => router.push("https://etherscan.io/enslookup-search?search=arhamh.eth")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
         >
           {name}
