@@ -27,9 +27,9 @@
     ],
     "media":[
         {"id":"1","title":"SportTechie","imageSrc":"https://pbs.twimg.com/profile_images/1016715044728418304/nQ3CbyVt_400x400.jpg","description":"Interview with SportTechie on VO2 and the future of fan engagement.","link":"https://www.sporttechie.com/name-image-likeness-and-a-handshake-vo2-is-the-marketplace-that-lets-fans-meet-greet-and-virtually-invest-in-an-athlete#"},
+        {"id":"4","title":"Young Money","imageSrc":"https://i.ibb.co/XDYHgNX/IMG-6166.png","description":"Podcast on founding young and building wealth","link":"http://tinyurl.com/TYMPodcast"},
         {"id":"2","title":"Forward Thinking Founders","imageSrc":"https://images.transistor.fm/file/transistor/images/show/5736/full_1609807324-artwork.jpg","description":"Podcast on my journey as a young founder","link":"https://ftf.seedscout.com/839-arham-habib-vo2-on-becoming-stakeholders-in-your-favorite-athletes/"},
-        {"id":"3","title":"Daily Pennsylvanian","imageSrc":"https://pbs.twimg.com/profile_images/1458868900108591107/TDZhCu33_400x400.jpg","description":"Cypher Accelerator @ UPenn announcement","link":"https://www.thedp.com/article/2022/02/cypher-accelerator-blockchain-crypto-startup-wharton"},
-        {"id":"4","title":"Young Money","imageSrc":"","description":"Podcast on founding young and building wealth","link":"http://tinyurl.com/TYMPodcast"}
+        {"id":"3","title":"Daily Pennsylvanian","imageSrc":"https://pbs.twimg.com/profile_images/1458868900108591107/TDZhCu33_400x400.jpg","description":"Cypher Accelerator @ UPenn announcement","link":"https://www.thedp.com/article/2022/02/cypher-accelerator-blockchain-crypto-startup-wharton"}
     ],
     "aboutpara1":"I'm the cofounder of VO2: backed by Techstars, Rough Draft Ventures, and Eberg Capital.",
     "aboutpara2":"I'm studying Finance/Math at UPenn Wharton. On campus, I was part of the Genesis Cohort of Wharton's Cypher Accelerator. Prior to that, I went through through Jane Street's SEE program and was a Venture Analyst at Redbud Brands.",
