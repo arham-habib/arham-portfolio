@@ -100,9 +100,9 @@ export default function Home() {
               className="text-3xl tablet:text-6xl laptop:text-7xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
             >
               {data.headerTaglineThree} 
-              <Link href="http://www.vo2.fans">
+              {/*<Link href="http://www.vo2.fans">
                   <a className="underline underline-offset-3">VO2,</a>
-              </Link>
+    </Link>*/}
             </h1>
             <h1
               ref={textFour}
@@ -170,6 +170,9 @@ export default function Home() {
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-3xl text-bold">About:</h1>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-4/5">
+            {data.aboutpara0} 
+          </p>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-4/5">
             {data.aboutpara1} 
           </p>
